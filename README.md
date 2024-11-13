@@ -14,3 +14,19 @@ To set up the environment, you need Python and the following packages:
 
 ```bash
 pip install pulp
+```
+
+### Program Files
+
+1. **menu_builder.py**: Main code that defines `get_best_meal()` and implements the optimization logic.
+2. **test_meal_plan.py**: Test script containing various test cases to validate the meal plan generation under different constraints.
+
+### Running the Test
+
+To try out the program with sample test cases, run:
+
+```bash
+python test_meal_plan.py
+```
+
+This will output optimal meal plans or notify if constraints are too strict to generate a feasible plan.
